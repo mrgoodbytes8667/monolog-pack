@@ -1,0 +1,19 @@
+alias logdir="cd var/log/prod"
+function catlog() {
+	cat "var/log/prod-$(date +"%F").log"
+}
+function catcommandlog() {
+        cat "var/log/command.prod-$(date +"%F").log"
+}
+function catdeprecationslog() {
+        cat "var/log/deprecations.prod-$(date +"%F").log"
+}
+function catdoctrinelog() {
+        cat "var/log/doctrine.prod-$(date +"%F").log"
+}
+function cathttpclientlog() {
+        cat "var/log/http_client.prod-$(date +"%F").log"
+}
+function catsecuritylog() {
+        cat "var/log/security.prod-$(date +"%F").log"
+}
