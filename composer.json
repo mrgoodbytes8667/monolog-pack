@@ -1,7 +1,7 @@
 {
     "name": "mrgoodbytes8667/monolog-pack",
     "description": "A pack whose recipe sets up monolog with an alternate base configuration",
-    "type": "symfony-pack",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
